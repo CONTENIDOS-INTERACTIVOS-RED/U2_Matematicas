@@ -396,7 +396,7 @@
 export default {
   name: 'Tema3',
   data: () => ({
-  cuestionario: {
+    cuestionario: {
       tema: '--',
       titulo: 'Ponte a prueba',
       introduccion:
@@ -405,7 +405,8 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: 'En el diseño de algoritmos, la complejidad O(n²) significa que:',
+          texto:
+            'En el diseño de algoritmos, la complejidad O(n²) significa que:',
           barajarRespuestas: true,
           opciones: [
             {
@@ -429,7 +430,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! La notación O(n²) indica un crecimiento cuadrático del tiempo de ejecución.',
+          mensaje_correcto:
+            '¡Muy bien! La notación O(n²) indica un crecimiento cuadrático del tiempo de ejecución.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -458,7 +460,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Perfecto! Esta fórmula considera el efecto del interés sobre interés.',
+          mensaje_correcto:
+            '¡Perfecto! Esta fórmula considera el efecto del interés sobre interés.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -487,7 +490,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Excelente! Un monomio es un término algebraico que contiene una única variable.',
+          mensaje_correcto:
+            '¡Excelente! Un monomio es un término algebraico que contiene una única variable.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -516,12 +520,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! La propiedad distributiva relaciona la multiplicación con la suma.',
+          mensaje_correcto:
+            '¡Muy bien! La propiedad distributiva relaciona la multiplicación con la suma.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
-          texto: 'Para calcular el número óptimo de unidades a producir se debe:',
+          texto:
+            'Para calcular el número óptimo de unidades a producir se debe:',
           barajarRespuestas: true,
           opciones: [
             {
@@ -545,7 +551,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Excelente! La optimización de producción requiere considerar todos los factores de costo y precio.',
+          mensaje_correcto:
+            '¡Excelente! La optimización de producción requiere considerar todos los factores de costo y precio.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
