@@ -18,6 +18,14 @@
     background-color: #FEF8E7
   &-9
     background-color: #E5F8F8
+.bg-fondo
+  &-1
+    background-image: url("../assets/bg/1.svg") !important
+    background-position: top
+  &-2
+    background-image: url("../assets/bg/2.svg") !important
+    background-position: bottom
+
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
@@ -39,6 +47,8 @@
 .mb-cus
   @media screen and (max-width: $bp-max-sm)
     margin-bottom: 1rem !important
+.img-infografica 
+    background-color: transparent !important
 .ml-1
   margin-left: 3rem
 .bb-1
@@ -62,6 +72,8 @@
     color: #000 !important;
 .lista-ul--color li > i:first-of-type 
     top: 10px;
+.lista-ol--cuadro__vineta.bg-cus
+    background-color: #FCE8A6
 /*COMPONENTS STYLES*/
 .boton.color-adicional-1, .color-adicional-1.boton--sm 
     background-color: $color-adicional-1;
@@ -114,6 +126,14 @@ i.fas.fa-circle.color-acento-contenido
 .slyder-f__btn i 
     background-color: $color-primario
     color: #fff
+.tabla-a thead th
+    background-color: $color-primario !important
+.tabla-a tbody tr:nth-child(even),
+.tabla-a tbody tr:nth-child(odd)
+    background-color: #FDF3D2 !important
+.tabla-a th, .tabla-a td
+    border: 1px solid #707070 !important
+
 // Variables#0c1512#0c1512
 $custom-card-border-radius: 0px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
@@ -158,13 +178,6 @@ $custom-card-img-height: 322px
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
-.bg-fondo
-  &-1
-    background-image: url("../assets/bg/1.svg") !important
-    background-position: top
-  &-2
-    background-image: url("../assets/bg/2.svg") !important
-    background-position: bottom
 
 .ctn-actividad
   background-color: #ebf1f5 !important
