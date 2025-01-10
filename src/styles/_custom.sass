@@ -18,6 +18,8 @@
     background-color: #FEF8E7
   &-9
     background-color: #E5F8F8
+  &-10
+    background-color: #FDF3D2
 .bg-fondo
   &-1
     background-image: url("../assets/bg/1.svg") !important
@@ -167,8 +169,22 @@ $custom-card-img-height: 322px
     transform: scale(1.01)
   &__image
     height: 224px
-    object-fit: cove
+    object-fit: cover
 
+
+.custom-image-card-3
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: #ECF4FA
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
 // Full Width Background
 .bg-full-width
   background-size: cover

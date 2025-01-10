@@ -46,6 +46,39 @@ export default {
         ],
       },
       {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Resolución de ecuaciones lineales sencillas',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Métodos de resolución',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Aplicaciones prácticas',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Resolución de ecuaciones lineales sencillas',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Aplicación del álgebra en la vida diaria',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
         desarrolloContenidos: true,
