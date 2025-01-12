@@ -100,7 +100,7 @@
               span 2
             .flex-column
                 p.mb-0.fw-bold Traducir el problema a lenguaje algebraico
-                p.mb-0 Convertir las frases del problema en una ecuación.
+                p.mb-0 Convertir las frases del problema, en una ecuación.
                 p.mb-0 Usar la variable identificada.
                 p.mb-0 Incluir las relaciones matemáticas mencionadas.
 
@@ -202,7 +202,7 @@
             td.fw-bold Álgebra computacional
             td Emplea herramientas computacionales para abordar problemas algebraicos complejos.
             td 
-              | Utiliza software matemático.
+              | Utiliza #[i software] matemático.
               br
               | Resuelve ecuaciones complejas.
               br
@@ -253,7 +253,7 @@
           .col-lg-7
              h2.mb-4 Aplicaciones multidisciplinarias del álgebra
              p.mb-4 El álgebra es una herramienta poderosa que trasciende las matemáticas puras y encuentra aplicaciones en múltiples disciplinas. En el PDF #[b Aplicaciones multidisciplinarias del álgebra], se exploran casos prácticos que muestran cómo los conceptos algebraicos son fundamentales para modelar problemas en áreas como sistemas e informática, contabilidad y finanzas, logística, gestión humana y ciencias de la salud. A través del análisis de ecuaciones, funciones y modelos, se evidencia cómo el álgebra facilita la toma de decisiones, optimiza procesos y proyecta escenarios en contextos reales, aportando soluciones eficaces en diversas profesiones.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/aplicaciones_multidisciplinarias_del_algebra.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
@@ -272,7 +272,7 @@
           .col-lg-7
              h2.mb-4 Ejemplos prácticos de aplicación del álgebra en finanzas, sistemas y contabilidad
              p.mb-4 En el PDF #[b Ejemplos prácticos de aplicación del álgebra], se presentan diversos ejercicios que ilustran cómo las herramientas algebraicas permiten resolver problemas reales en estos ámbitos. Desde el cálculo del punto de equilibrio en ventas hasta la proyección de ventas y el análisis de inventario, cada ejercicio muestra cómo las ecuaciones y modelos algebraicos facilitan la toma de decisiones estratégicas y optimizan los recursos disponibles. Este material es clave para entender la utilidad del álgebra en situaciones financieras, administrativas y operativas del entorno empresarial.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/ejemplos_practicos_finanzas_sistemas_contabilidad.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
@@ -284,7 +284,7 @@
           .col-lg-7
              h2.mb-4 Optimización de recursos en sistemas de información
              p.mb-4 En el PDF #[b Optimización de recursos en sistemas de información], se presenta un ejercicio práctico que demuestra cómo las herramientas algebraicas permiten modelar problemas complejos y optimizar la asignación de recursos en proyectos de TI. A través de un modelo matemático que considera restricciones presupuestarias, tiempos y necesidades específicas de personal, se exploran estrategias para maximizar la eficiencia del proyecto. Este material destaca la importancia del uso del álgebra para tomar decisiones estratégicas y gestionar recursos de manera efectiva en entornos empresariales y tecnológicos.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/optimizacion_de_recursos_en_sistemas_de_informacion.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto

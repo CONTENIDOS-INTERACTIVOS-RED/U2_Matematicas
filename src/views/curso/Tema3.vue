@@ -299,17 +299,17 @@
                       h3.mb-1 Ejercicios
                       p.mb-0.mb-cus Para dar profundidad al tema, en el PDF Ejercicios, se explicarán 3 ejercicios de ecuaciones lineales, junto con una analogía que le permitirán comprender en contextos reales su usabilidad.
                     .col-sm-auto
-                      a.boton.color-adicional-1.texto-blanco(href='PEND' target="_blank")
-                        span Ir al sitio
+                      a.boton.color-adicional-1.texto-blanco(:href='obtenerLink("/downloads/Ejercicos.pdf")' target='_blank')
+                        span Descargar
                         i.fas.fa-arrow-right
 
     .bg-full-width.bg-3.mb-5(data-aos="fade-up")
       .p-5
         .row.justify-content-center.align-items-center
           .col-lg-7
-             h2.mb-4 Ejemplos prácticos de aplicación de ecuaciones lineales en finanzas, sistemas y contabilidad
+             h2.mb-4 Ejemplos prácticos de aplicación de ecuaciones lineales
              p.mb-4 En el PDF #[b Ejemplos prácticos de aplicación de ecuaciones lineales], se presentan ejercicios detallados que muestran cómo las ecuaciones lineales permiten modelar y resolver situaciones reales en diferentes contextos empresariales. A través de problemas como el análisis de punto de equilibrio, la proyección de inversiones y el cálculo de costos de producción, se destaca la utilidad del álgebra para optimizar recursos y tomar decisiones estratégicas. Este material busca fortalecer las habilidades matemáticas aplicadas, facilitando un enfoque práctico en la gestión de proyectos y operaciones financieras.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/ejemplos_practicos_de_aplicacion_de_ecuaciones_lineales.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
@@ -334,7 +334,7 @@
           .col-lg-7
              h2.mb-4 Ejemplos en diferentes áreas 
              p.mb-4 En el PDF #[b Ejemplos en diferentes áreas], se exploran ejemplos prácticos que muestran cómo las herramientas algebraicas son fundamentales para modelar y resolver situaciones comunes. Desde la planificación financiera y el cálculo de intereses hasta el análisis de trayectorias y crecimiento poblacional, este material permite entender cómo el álgebra se aplica en diversos contextos de la vida diaria. El documento ofrece soluciones detalladas a problemas reales, resaltando la utilidad del pensamiento algebraico para tomar decisiones informadas y optimizar recursos en diferentes áreas del conocimiento.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/ejemplos_en_diferentes_areas.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
@@ -350,7 +350,7 @@
           .col-lg-7
              h2.mb-4 Ejercicios aplicación del álgebra en la vida diaria 
              p.mb-4 En el PDF #[b Ejercicios aplicación del álgebra en la vida diaria], se presentan situaciones prácticas que permiten comprender cómo las ecuaciones algebraicas ayudan a resolver problemas cotidianos relacionados con finanzas personales, proyección de ahorros, control de gastos, cálculo de intereses y amortización de préstamos. A través de ejemplos detallados, se ilustra cómo aplicar el álgebra para tomar decisiones informadas y optimizar recursos en distintos contextos. Este enfoque práctico facilita el desarrollo de habilidades matemáticas esenciales para mejorar la planificación y gestión financiera en la vida diaria.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/ejercicios_aplicacion_del_algebra_en_la_vida_diaria.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
