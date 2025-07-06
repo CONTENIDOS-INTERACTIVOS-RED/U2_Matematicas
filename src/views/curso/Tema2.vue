@@ -73,18 +73,39 @@
             p.mb-0 Una expresión algebraica, es una combinación de números, letras (llamadas variables) y operaciones matemáticas (como suma, resta, multiplicación o división), que representa una cantidad o relación. No tiene un signo de igualdad, por lo que no se considera una ecuación. 
         .col-lg-auto.d-none.d-lg-block
           img(src='@/assets/curso/t2/6.png', alt='')
+
+
+    .bg-full-width.bg-3.mb-lg-5
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/t2/17.png', alt='')
+    
+          .col-lg-8
+            h2.mb-4(data-aos="flip-up") Introducción a las expresiones algebraicas
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento Introducción a las expresiones algebraicas, donde se presentan las expresiones algebraicas como herramientas esenciales del lenguaje matemático para representar relaciones numéricas y situaciones con cantidades variables. Estas expresiones combinan números, variables y operaciones para formar unidades con significado preciso, capaces de generalizar patrones y modelar problemas reales. En este contexto, el pensamiento algebraico permite interpretar y resolver situaciones cotidianas con eficacia y claridad. La comprensión de estas estructuras simbólicas constituye un paso clave en el desarrollo del razonamiento abstracto en matemáticas.
+    
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Introduccion_a_las_expresiones_algebraicas.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Operaciones con Expresiones Algebraicas: Binomios y Términos Semejantes
+    
+
+
     p.mb-4 A continuación, se amplía el concepto de expresión algebraica, utilizando algunos ejemplos en términos sencillos de comprender: 
     .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/t2/7.png')
-      .col-sm-12.col-lg-7
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/t2/7b.png')
+      .col-sm-12.col-lg-8
         LineaTiempoD.color-acento-contenido.large
           div(numero='1' titulo='Ejemplo 1')
             p.mb-3 Imaginar que se está realizando una receta de cocina. Si para hacer galletas se necesitan 3 cucharadas de harina por cada galleta, la cantidad total de harina que se requiere, dependerá de cuántas galletas se decide preparar. Esto se puede expresar como:
             p.mb-3.text-center 3g
             p.mb-0 Donde:
-            p.mb-0 3 es la cantidad fija de cucharadas por galleta.
-            p.mb-0 g es el número de galletas que vas a hacer (una cantidad que puede variar).
+            p.mb-0 #[b 3] es la cantidad fija de cucharadas por galleta.
+            p.mb-0 #[b g] es el número de galletas que vas a hacer (una cantidad que puede variar).
             p.mb-0 Esto es una expresión algebraica porque combina un número fijo y una variable.
 
           div(numero='2' titulo='Ejemplo 2')
@@ -99,6 +120,26 @@
             p.mb-0 Donde:
             p.mb-0 #[i d] es la distancia en kilómetros.
             p.mb-0 Las expresiones algebraicas son útiles porque permiten representar y resolver situaciones en las que hay cantidades que pueden cambiar.
+    
+    .bg-full-width.bg-3.mb-lg-5
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-8
+            h2.mb-4(data-aos="flip-up") Operaciones con Expresiones Algebraicas: Binomios y Términos Semejantes
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento Operaciones con Expresiones Algebraicas: Binomios y Términos Semejantes, donde se abordan los binomios como una forma particular de expresión algebraica compuesta por dos términos unidos por suma o resta. Este estudio incluye las operaciones fundamentales —suma, resta, multiplicación y división— aplicadas a binomios, basadas en propiedades algebraicas clave. Comprender y dominar estas operaciones permite avanzar hacia temas más complejos como productos notables, factorización y resolución de ecuaciones. Así, se fortalece el pensamiento algebraico y la capacidad de modelar y resolver problemas matemáticos.
+    
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Binomios.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Operaciones con Expresiones Algebraicas: Binomios y Términos Semejantes
+    
+          .col-lg-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/t2/8b.png', alt='')
+    
+    
+    
     h2.mb-3 Estructura de expresiones algebraicas
     p.mb-5 Una expresión algebraica combina variables, constantes y operaciones matemáticas. Sus componentes fundamentales incluyen:
     .row.justify-content-center.mb-5
@@ -203,9 +244,9 @@
               img(src='@/assets/curso/t2/15.png', alt='')
     p.mb-4 Y estudiemos algunos ejemplos:
     .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/t2/16.png')
-      .col-sm-12.col-lg-7
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/t2/9b.png')
+      .col-sm-12.col-lg-8
         AcordionA(tipo='b')
           div(titulo='Ejercicio 1')
             p.mb-4 #[b Identificación y transformación]
@@ -236,6 +277,25 @@
             p.mb-4 #[b Problema:] Un rectángulo tiene largo x+2 y ancho x-1. Expresar su área algebraicamente.
             p.mb-0 #[b Solución:]
             p.mb-0 A = (x+2)(x-1) = x² + x - 2
+
+
+    .bg-full-width.bg-3.mb-lg-0
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-8
+            h2.mb-4(data-aos="flip-up") Construcción formal del conjunto de los número reales
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento La Construcción del Conjunto de los Números Reales: Estructura y Propiedades, donde se explora cómo la necesidad de completar el conjunto de los números racionales dio origen a una de las construcciones más importantes del análisis matemático moderno. A través de métodos rigurosos como las cortaduras de Dedekind o las sucesiones de Cauchy, se define un sistema numérico continuo y denso. Este proceso, basado en la idea de completitud, permite sustentar teóricamente conceptos fundamentales como la continuidad, el límite y la convergencia.
+    
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Reales.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Construcción formal del conjunto de los número reales
+    
+          .col-lg-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/t2/10b.png', alt='')
+    
 
 
     .bg-full-width.border-top.color-primario

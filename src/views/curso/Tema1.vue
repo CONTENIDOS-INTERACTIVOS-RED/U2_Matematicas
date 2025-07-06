@@ -6,7 +6,7 @@
     figure.mb-4(data-aos="fade-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2XGjwq6LRqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+
     p.mb-4(data-aos="fade-up") Conozcamos sus componentes principales:
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-sm-12.col-lg-6
@@ -45,17 +45,11 @@
               p.mb-4.fw-bold Edad de hermanos.
               p.mb-4 
                 strong Problema. 
-                | María tiene el doble de edad que Juan. Juan tiene 15 años.
-              ul.lista-ul--color.mb-0
-                li.d-flex
-                  i.fas.fa-circle.icon-list
-                  p.mb-0 Variable x: edad de Juan.
-                li.d-flex
-                  i.fas.fa-circle.icon-list
-                  p.mb-0 x = 15
-                li.d-flex
-                  i.fas.fa-circle.icon-list
-                  p.mb-0 Edad de María: 2x = 2(15) = 30 años.
+                | María tiene el doble de edad que su hermano Juan. Si Juan tiene 15 años, ¿cuántos años tiene María?
+
+              figure.mb-4
+                img(src='@/assets/curso/t1/ejemplo1.svg', style='max-width: 660px')
+
             .col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/t1/2.png', alt='Imagen de elementos matemáticos')
 
@@ -278,7 +272,7 @@
                .anexo__texto
                   p <strong>Anexo. </strong> Ejemplos prácticos de aplicación del álgebra en finanzas, sistemas y contabilidad
     p.mb-4(data-aos="fade-up") Ahora bien, analicemos el siguiente ejemplo práctico de optimización de recursos, en sistemas de información.
-    .bg-full-width.bg-3.mb-5(data-aos="fade-up")
+    .bg-full-width.bg-3.mb-0
       .p-5
         .row.justify-content-center.align-items-center
           .col-lg-7
